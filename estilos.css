@@ -68,7 +68,6 @@ a{
 
 }
 
-
 .produtoDestaque a{
     text-align: justify;
 }
@@ -90,8 +89,12 @@ a{
 }
 
 .imgDestaque{
-    width: 50%;
-    
+    width: 50%;    
+    margin-bottom: 10px;
+}
+
+.iconeDestaque{
+    width: 10%;    
     margin-bottom: 10px;
 }
 
@@ -152,3 +155,35 @@ h3{
     margin-bottom: 10px;
     box-shadow: blue 2px, 2px, 5px;    
 }
+
+#sobre{
+    display: flex;
+    justify-content: center;
+}
+.sobreDestaque{
+    border: gray 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+
+}
+
+
+.saibamaisDestaque{
+    border        : none;
+    margin-left   : 10px;
+    margin-right  : 10px;
+    text-align    : left;
+    padding-top   : 10px;
+    padding-left  : 10px;
+    padding-right : 10px;
+    padding-bottom: 10px;
+
+}
+
